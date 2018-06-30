@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.pgb.brewapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="https://phonegap.com/ns/1.0">
+    <name>TamilGenius Alpha</name>
+
+    <icon src="/icons/ldpi.png" platform="android" qualifier="ldpi" />
+    <icon src="/icons/mdpi.png" platform="android" qualifier="mdpi" />
+    <icon src="/icons/hdpi.png" platform="android" qualifier="hdpi" />
+    <icon src="/icons/xhdpi.png" platform="android" qualifier="xhdpi" />
+    <icon src="/icons/xxhdpi.png" platform="android" qualifier="xxhdpi" />
+    <icon src="/icons/xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
+    <icon src="/icons/fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
+    <access origin="*" />
+    <plugin name="cordova-plugin-whitelist" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" version="1.0.0" />
+    
+    <description>
+        Knowledge based application from TamilClone | Pirabu
+    </description>
+
+    <author email="pirabu@artsuit.com" href="http://pirabu.com">
+        Pirabu Chandran
+    </author>
+    <preference name="phonegap-version" value="cli-6.0.0" />
+
+</widget>

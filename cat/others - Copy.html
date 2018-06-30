@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta name="theme-color" content="#1b083e" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Custome style -->
+    <link rel="stylesheet" href="../style.css">
+    <title>Tamil Genius</title>
+</head>
+
+<body>
+    <!--- Header --->
+    <!-- Navi section-->
+    <div class="jumbotron jumbotron-fluid main-nav-section">
+        <div class="container-fluid main-nav">
+            <a class="navi-icon" onclick="openNav()"><img src="../img/menu.svg"></a>
+            <a class="menu-logo" href="../../index.html"><img src="../../img/brain.svg"></a>
+        </div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="../cat/scholars.html">மேதைகள்</a>
+                <a href="../cat/aliens.html">ஏலியன்ஸ்</a>
+                <a href="../cat/illuminati.html">இலுமினாட்டி</a>
+                <a href="../cat/lemuria.html">குமரிக்கண்டம்</a>
+                <a href="../cat/esp.html">ESP</a>
+                <a href="../cat/puzzles.html">புதிர்கள்</a>
+                <a href="../cat/others.html">ஏனையவை</a>
+                <div class="menu-credits">
+                    <a href="http://edu.tamilclone.com">From : TamilClone.com</a><br>
+                    <a href="http://edu.tamilclone.com">By : Pirabu Chandran</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--- Header END --->
+    <!--- Content --->
+    <!-- Title section-->
+    <div class="jumbotron jumbotron-fluid cat-page">
+        <div class="container cat-title">
+            <h1>ஏலியன்ஸ்</h1>
+        </div>
+        <div class="container-fluid sub-cat-title-section">
+            <a href="../cat/aliens.html"><img src="../img/puzzle.svg"></a>
+        </div>
+        <div class="container list-content">
+            <ul>
+                <li><a href="../posts/aliens/01.html">4D யும் தியரி ஒஃப் ரிலேட்டிவிட்டியும். -1</a></li>
+                <li><a href="../posts/aliens/02.html">காலப்பயணமும் தியரி ஒஃப் ரிலேட்டிவிடியும். -2</a></li>
+                <li><a href="../posts/aliens/03.html">காலப்பயண சாத்தியமும், ஏலியன்ஸ் உருவாக்கமும்! -3</a></li>
+                <li><a href="../posts/aliens/04.html">பூமிக்கு விஜயம் செய்த ஏலியன்ஸ் குறிப்புக்கள். -4</a></li>
+                <li><a href="../posts/aliens/05.html">ஆட்களைக்கடத்தும் வேற்றுக்கிரக வாசிகள். -5</a></li>
+                <li><a href="../posts/aliens/06.html">வேற்றுக்கிரகவாசிகள் எனப்படும் “ஏலியன்ஸ்” எதிர்கால மனிதர்களா? -6</a></li>
+                <li><a href="../posts/aliens/07.html">மாற்று உலகமும் எம்மை நோட்டமிடும் ஏலியன்ஸும் -7</a></li>
+                <li><a href="../posts/aliens/08.html">தியரி ஒஃப் ரிலேட்டிவிட்டியும் ஏலியன்ஸ் நோட்டமும்! -8</a></li>
+                <li><a href="../posts/aliens/09.html">ஏலியன்ஸ் ஏன் நம்மை தாக்குவதில்லை? தாக்கினால் என்னவாகும்? -9</a></li>
+                <li><a href="../posts/aliens/10.html">எமது உலகை செதுக்கிய ஏலியன்ஸ்! -10</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--- Content END--->
+
+    <!-- Footer -->
+    <!-- footer section-->
+    <div class="jumbotron jumbotron-fluid footerBar">
+        <div id="footerStick">
+            <a class="footerButton" href="javascript:history.go(-1)"></a>
+
+        </div>
+        <div class="container footerItems">
+            <a class="footerSet" href="../profile.html"><img src="../img/user.svg"></a>
+            <a class="footerSet" href="../video.html"><img src="../img/video.svg"></a>
+            <a class="footerSet" href="../index.html"><img src="../img/home.svg"></a>
+            <a class="footerSet" href="../latest.html"><img src="../img/latest.svg"></a>
+            <a class="footerSet" href="../live.html"><img src="../img/web.svg"></a>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Overlay navigation menu -->
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "75%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+    </script>
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("footerStick").style.bottom = "0";
+            } else {
+                document.getElementById("footerStick").style.bottom = "-150px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+
+    </script>
+</body>
+
+</html>
+<!-- Footer END-->
